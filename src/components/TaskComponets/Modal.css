@@ -1,0 +1,7 @@
+.image {
+  height: 7rem;
+  width: auto;
+  max-width: 40%;
+  object-fit: cover;
+  margin: 1rem;
+}

@@ -1,0 +1,12 @@
+.cardlist{
+
+    width: 60vh;
+    border: none;
+}
+
+@media only screen and (max-width: 600px) {
+    .cardlist{
+        width: auto;
+
+    }
+  }

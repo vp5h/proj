@@ -1,0 +1,64 @@
+.Task {
+  display: flex;
+  max-width: 75%;
+  align-content: center;
+  justify-content: space-between;
+}
+
+.NormalTask {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  float: right;
+  margin-right: 0.5rem;
+  margin-top: 8px;
+}
+.date {
+  align-self: flex-end;
+}
+.NormalTask_Task {
+  max-width: 75%;
+}
+
+.NormalTask_Date {
+  color: red;
+}
+
+.Tasks_Edit-input {
+  height: 6rem;
+  /* display: block; */
+}
+
+.Tasks_Edit {
+  height: 10rem;
+  display: block;
+}
+
+.Task_date {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 6rem;
+  color: red;
+}
+
+.Task_icons {
+  position: absolute;
+  right: 4px;
+  top: 4px;
+  width: 6rem;
+}
+
+.allTaskSelected {
+  color: black;
+  margin: 0.2rem;
+  height: auto;
+}
+
+.allTask {
+  color: gray;
+  height: auto;
+  margin: 0.2rem;
+}
